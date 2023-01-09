@@ -1,11 +1,11 @@
-// SSH with Username and IP Address
+# SSH with Username and IP Address
 ssh <user>@<ip-address>
 
-// SSH with Custom Port Number, Username and IP Address
+# SSH with Custom Port Number, Username and IP Address
 ssh -p <port-number> <user>@<ip-address>
 
-// SSH with Identity File, Username and IP Address
+# SSH with Identity File, Username and IP Address
 ssh -i <identity-file-path> <user>@<ip-address>
 
-// Example
+# Example
 ssh -i /Users/computer-user/.ssh/my-ssh-key username@ip-address
