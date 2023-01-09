@@ -1,0 +1,63 @@
+// To install Homebrew open terminal and run the command below:
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+// To add Homebrew to your PATH run the commands below:
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/webdevrobert/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+// To verify which version of Homebrew is installed, open terminal and run the command below:
+brew -v
+
+// To view Homebrew status, issues and updates, open terminal and run the command below:
+brew doctor
+
+// To view Homebrew help file, open terminal and run the command below:
+brew help
+
+// To see a complete list of available installation packages in Homebrew, open terminal and run the command below:
+brew formulae
+
+// To search for a specific installation package in Homebrew, open terminal and run the command below:
+brew search <packagename>
+
+// To get information about a specific package in Homebrew, open terminal and run the command below:
+brew info <packagename>
+
+// To download and install a specific package in Homebrew, open terminal and run the command below:
+brew install <packagename>
+
+// EXAMPLE: To install the speedtest-cli package in Homebrew, open terminal and run the command below:
+brew install speedtest-cli
+// To run the speedtest-cli package in Homebrew, open terminal and rund the command below:
+speedtest-cli
+
+// To install a specific GUI package in Homebrew, open terminal and run the command below:
+brew install --cask <app-name>
+
+// To see a list of all packages installed in Homebrew, open terminal and run the command below:
+brew list
+
+// To see where the Homebrew packages are installed, open terminal and run the command below:
+brew --prefix
+
+// To update a specific package in Homebrew, open terminal and run the command below:
+brew update <packagename>
+
+// To remove an installed package in Homebrew, open terminal and run the command below:
+brew remove <packagename>
+
+// To view the Homebrew manual, open terminal and run the command below:
+man brew
+
+// To uninstall Homebrew, open terminal and run the command below:
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+
+Homebrew Packages:
+    imagemagick: Lets me convert an image to another format and make simple edits. More info.
+    speedtest-cli: I can see my download and upload speed via this. More info.
+    wifi-password: This brilliant yet straightforward command shows me the Wi-Fi password of the currently connected network. Super handy!
+    Youtube-dl: This lets me download videos from YouTube and other places. More info.
+
+brew install coreutils
+
+// Most of the information above was learned from: https://www.igeeksblog.com/how-to-install-homebrew-on-mac/
