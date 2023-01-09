@@ -1,5 +1,4 @@
 # Type the following command at the Apple Terminal Command Prompt:
-
 cal -j -m 1
 
 # ...and hit enter. The results should look something like this:
