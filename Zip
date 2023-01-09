@@ -1,0 +1,3 @@
+# The following command creates a compressed (zip) file of the specified folder.
+
+zip -r archive-name.zip folder-name
