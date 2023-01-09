@@ -1,24 +1,18 @@
 # Type the following command at the Apple Terminal Command Prompt:
-
 date '+DATE: %m/%d/%y%nTIME:%H:%M:%S'
 
 # ...and hit enter. The results should look something like this:
-
 DATE: MM/DD/YY
 TIME:HH:MM:SS
 
 # Type the following command at the Apple Terminal Command Prompt:
-
 date '+%s'
 
 # ...and hit enter. The results should look something like this (Unix Timestamp):
-
 1673292710
 
 # Type the following command at the Apple Terminal Command Prompt:
-
 date -r 1673292710
 
 # ...and hit enter. The results should look something like this (Decifer Unix Timestamp):
-
 Mon Jan  9 13:31:50 CST 2023
